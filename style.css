@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
     body {
         background-color: rgb(233, 233, 233);
@@ -28,7 +28,7 @@ header {
 
 /* Proprietà contenitore-max & NAV ---------------------------------- */
 #contenitore-max, nav {
-    height: 500px;
+    /* height: 500px; */
     width: 70%;
     margin: auto;
     background-color: white;
@@ -66,3 +66,34 @@ nav {
             background-color: white;
             color: rgb(206, 206, 206);
         }
+
+/* Inizio MAIN ------------------------------------------------------ */
+main {
+    padding: 30px 40px;
+}
+    .line {
+        line-height: 20px;
+    }
+        .line span {
+            vertical-align: middle;
+        }
+            .ok {
+                border: rgb(56, 199, 115) 1px solid;
+                border-radius: 50%;
+                font-size: 8px;
+                /* Questo padding è brutto */
+                padding: 1px 3px;
+                color: rgb(56, 199, 115);
+                /* Questo margin left è brutto */
+                margin: 0px 5px;
+            }
+            .text {
+                font-size: 15px;
+            }
+            .tipo {
+                background-color: rgb(72, 169, 248);
+                font-size: 9px;
+                padding: 6px;
+                border-radius: 10px;
+                color: white;
+            }
