@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
     body {
-        background-color: lightgrey;
+        background-color: rgb(233, 233, 233);
     }
 
 /* Inizio HEADER ---------------------------------------------------- */
@@ -14,7 +14,7 @@ header {
     background-color: white;
 }
     .elem-header {
-        margin-left: 20px;
+        margin-left: 30px;
         /* Definisce la grandezza della linea */
         line-height: 70px;
     }
@@ -26,11 +26,43 @@ header {
             vertical-align: middle;
         }
 
-/* Proprietà contenitore-max ---------------------------------------- */
-#contenitore-max {
+/* Proprietà contenitore-max & NAV ---------------------------------- */
+#contenitore-max, nav {
     height: 500px;
-    width: 60%;
-    margin: 50px auto;
+    width: 70%;
+    margin: auto;
     background-color: white;
-    border-radius: 1%;
 }
+#contenitore-max {
+    border-radius: 1%;
+    margin-bottom: 20px;
+}
+
+/* Inizio NAV ------------------------------------------------------- */
+nav {
+    margin-top: 50px;
+    margin-bottom: 2px;
+    height: 50px;
+    border-radius: 4px;
+}
+    nav #buttons {
+        margin-left: 40px;
+        line-height: 50px;
+    }
+        .add-task, .add-section {
+            vertical-align: middle;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 7px;
+            border-radius: 5px;
+        }
+        .add-task {
+            background-color: rgb(72, 169, 248);
+            color: rgb(241, 240, 240);
+            border: rgb(72, 169, 248) 2px solid;
+        }
+        .add-section {
+            border: rgb(206, 206, 206) 2px solid;
+            background-color: white;
+            color: rgb(206, 206, 206);
+        }
