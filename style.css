@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+    body {
+        background-color: lightgrey;
+    }
+/* Inizio HEADER ---------------------------------------------------- */
+header {
+    height: 70px;
+    background-color: white;
+}
+    .elem-header {
+        margin-left: 20px;
+        /* Definisce la grandezza della linea */
+        line-height: 70px;
+    }
+        h1 {
+            display: inline;
+        }
+        h1, #logo {
+            /* Definisce il punto dove deve stare il testo */
+            vertical-align: middle;
+        }
