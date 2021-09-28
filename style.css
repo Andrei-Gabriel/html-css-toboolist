@@ -119,6 +119,15 @@ main {
                 .tipo.orange {
                     background-color: orange;
                 }
+                .tipo.pink {
+                    background-color: palevioletred;
+                }
+                .tipo.verde-chiaro {
+                    background-color: rgb(76, 207, 72);
+                }
     main section {
         margin-bottom: 20px;
     }
+        section:last-child {
+            margin-bottom: 0;
+        }
