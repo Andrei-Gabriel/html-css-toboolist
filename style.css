@@ -119,6 +119,10 @@ main {
                 .tipo.orange {
                     background-color: orange;
                 }
+                    /* Per mettere la parola "Mobile" al colore arancione N.B. bisogna togliere il testo nell'html
+                    .orange::after {
+                        content: "Mobile";
+                    } */
                 .tipo.pink {
                     background-color: palevioletred;
                 }
